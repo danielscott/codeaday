@@ -1,0 +1,45 @@
+body {
+	background-color: #EAD3A8;
+	margin: 0;
+}
+
+#wrapper {
+	max-width: 100%;
+	min-width: 320px;
+}
+
+nav {
+	background-color: #D23641;
+	width: 100%;
+	min-height: 24px;
+}
+
+nav ul {
+	background-color: #D23641;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+	background-color: #D23641;
+}
+
+
+nav ul li a:link, nav ul li a:visited {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 0px 5px 10px;
+}
+
+nav ul li a:hover {
+	color: #484043;
+}
+
+.clear {
+	clear: both;
+}
